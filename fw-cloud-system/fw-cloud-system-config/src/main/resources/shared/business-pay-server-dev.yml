@@ -1,5 +1,5 @@
 server:
-  port: 2003
+  port: 12003
 
 redis:
   cache:

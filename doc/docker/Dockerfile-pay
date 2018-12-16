@@ -5,4 +5,4 @@ ADD ./cloud-pay/fw-cloud-business-pay.jar /app/
 
 CMD ["java", "-Xmx300m", "-jar", "/app/fw-cloud-business-pay.jar"]
 
-EXPOSE 2003
+EXPOSE 12003

@@ -1,5 +1,5 @@
 server:
-  port: 1001
+  port: 11001
 
 spring:
   application:
@@ -11,7 +11,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
-
+    serviceUrl:
+      defaultZone: http://admin:liuweijw@localhost:11001/eureka
 ---
 spring:
   profiles: dev

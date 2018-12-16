@@ -5,4 +5,4 @@ ADD ./cloud-auth/fw-cloud-system-auth.jar /app/
 
 CMD ["java", "-Xmx300m", "-jar", "/app/fw-cloud-system-auth.jar"]
 
-EXPOSE 1004
+EXPOSE 11004

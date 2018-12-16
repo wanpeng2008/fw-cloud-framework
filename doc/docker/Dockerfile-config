@@ -5,4 +5,4 @@ ADD ./cloud-config/fw-cloud-system-config.jar /app/
 
 CMD ["java", "-Xmx200m", "-jar", "/app/fw-cloud-system-config.jar"]
 
-EXPOSE 1002
+EXPOSE 11002

@@ -5,4 +5,4 @@ ADD ./cloud-admin/fw-cloud-business-admin.jar /app/
 
 CMD ["java", "-Xmx300m", "-jar", "/app/fw-cloud-business-admin.jar"]
 
-EXPOSE 2002
+EXPOSE 12002

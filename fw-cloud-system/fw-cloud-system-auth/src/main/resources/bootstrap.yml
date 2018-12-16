@@ -22,7 +22,7 @@ eureka:
     lease-expiration-duration-in-seconds: 10
   client:
     serviceUrl:
-      defaultZone: http://admin:liuweijw@localhost:1001/eureka
+      defaultZone: http://admin:liuweijw@localhost:11001/eureka
     registry-fetch-interval-seconds: 10
 fw:
   jwt:
@@ -35,7 +35,7 @@ eureka:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://admin:liuweijw@47.106.144.24:1001/eureka
+      defaultZone: http://admin:liuweijw@47.106.144.24:11001/eureka
 fw:
   jwt:
     jwtkey: jwt:token:liuweijw
@@ -47,7 +47,7 @@ eureka:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://admin:liuweijw@localhost:1001/eureka
+      defaultZone: http://admin:liuweijw@localhost:11001/eureka
 fw:
   jwt:
     jwtkey: jwt:token:liuweijw

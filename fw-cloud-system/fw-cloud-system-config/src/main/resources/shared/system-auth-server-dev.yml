@@ -1,5 +1,5 @@
 server:
-  port: 1004
+  port: 11004
   
 spring:
   freemarker:
